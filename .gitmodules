@@ -1,0 +1,3 @@
+[submodule "openssl/ohos-openssl"]
+	path = openssl/ohos-openssl
+	url = https://github.com/ohos-rs/ohos-openssl
