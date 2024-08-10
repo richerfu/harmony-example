@@ -1,0 +1,5 @@
+go-shared/libadd.dylib
+go-shared/libadd.so
+go-shared/libadd.h
+scripts/main
+scripts/libadd.dylib
