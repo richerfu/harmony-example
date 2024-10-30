@@ -1,0 +1,16 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "libentry.so": "file:./src/main/cpp/types/libentry"
+  },
+  "devDependencies": {
+    "@ohos-rs/openssl": "^0.0.1",
+    "@ohos-rs/node-addon-api": "^0.0.1"
+  },
+  "dynamicDependencies": {}
+}
