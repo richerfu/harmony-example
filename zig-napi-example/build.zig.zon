@@ -1,0 +1,17 @@
+.{
+    .name = .zig_napi_example,
+    .version = "0.0.0",
+    .fingerprint = 0x1dfe36438848601b, // Changing this has security and trust implications.
+
+    // Tracks the earliest Zig version that the package considers to be a
+    // supported use case.
+    .minimum_zig_version = "0.15.1",
+
+    .dependencies = .{ .@"zig-napi" = .{ .url = "https://github.com/openharmony-zig/zig-napi/archive/refs/tags/0.0.1-beta.2.tar.gz", .hash = "zig_napi-0.0.1-beta.2-H6OwawaxAgDMitwMH0m5ZJZoIpdc5LU2C34P_msTfEQo" } },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
